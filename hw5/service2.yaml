@@ -5,7 +5,7 @@ metadata:
   name: my-service2
 spec:
   ports:
-  - port: 3000
+  - port: 8080
     targetPort: 3000
   selector:
     app: my-app2
